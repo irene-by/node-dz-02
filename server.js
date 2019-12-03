@@ -48,3 +48,19 @@ request(options, function (err, res, body) {
     let json = JSON.parse(body);
     console.log(json);
 });
+
+//let request = require('request');
+//
+// let options = {
+//     url: 'https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=3&fbclid=IwAR2ym_1JdP9amiJLliYaB96SRCQkPbj_FQKllz5PYQzMWb04Zl9hO0RQlnc',
+//     method: 'GET',
+//     headers: {
+//         'Accept': 'application/json',
+//         'Accept-Charset': 'utf-8'
+//     }
+// };
+//
+// request(options, function (err, res, body) {
+//     let json = JSON.parse(body);
+//     console.log(json);
+// });
